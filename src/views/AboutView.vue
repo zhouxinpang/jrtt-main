@@ -1,6 +1,6 @@
 <template>
     <div class="Outermost">
-      
+
         <div class="home-banner-wrapper">
             <div class="home-banner">
                 <video
@@ -12,7 +12,7 @@
                     <div class="Navigatewai">
                         <div class="Navigateleft">
                             <div class="fontleft">下载头条APP</div>
-                            <div class="fontleft">添加到桌面</div>
+                            <div class="fontleft">添加到桌面 周丽丹</div>
                             <div class="fontleft">关于头条</div>
                             <div class="fontleft">反馈</div>
                             <div class="fontleft">侵权投诉</div>
@@ -62,7 +62,7 @@
                 </div>
             </div>
         </div>
-        
+
         <div class="Outermostwai">
         <div>
         <div class="homepage">
@@ -135,7 +135,7 @@
        <div>
         <img class="Antifraud" src="https://lf3-beecdn.bytetos.com/obj/ies-fe-bee/bee_prod/biz_1128/tos_07dcbd0f70eb5e52510dd5dc6abe7061.png" alt="">
         <img class="Antifraud" src="https://lf3-beecdn.bytetos.com/obj/ies-fe-bee/bee_prod/biz_1128/tos_16cfa7beceda1e131dacc5d5b525ab06.png" alt="">
-        </div> 
+        </div>
 </div>
 <div>
    <div>
@@ -144,17 +144,17 @@
                             :key="item.id">
             <div v-if="index==0"><img class="" src="https://lf9-static.bytednsdoc.com/obj/eden-cn/pipieh7nupabozups/toutiao_web_pc/icon_hot_board_stick.svg" alt=""></div>
             <div v-else :class="index == 1 ? 'redcolor':index == 2 ?'orangecolor':index == 3 ? 'yellowcolor':'huicolor'" > {{ index }} </div>
-          
+
             <div class="hotlisttext">{{item.name}}</div>
-      
-             </div> 
+
+             </div>
           </div>
 </div>
 
       </div>
         </div>
 
-       
+
     </div>
 </template>
 <script>
@@ -169,7 +169,7 @@ export default {
             comments: '生活帮',
             comments1: '30评论',
             comments2: '20小时前',
-            
+
           },
          {
             img: 'https://p3-sign.toutiaoimg.com/tos-cn-i-qvj2lq49k0/cb113c786ef8452eba249105f20db56b~tplv-tt-cs0:619:483.jpg?_iz=31826&bid=10&from=article.headline&gid=7538795843336356379&lk3s=06827d14&x-expires=1757917040&x-signature=HSM%2B%2FqgT%2BSEK4knQskTxQRM%2FRFU%3D',
@@ -177,7 +177,7 @@ export default {
             comments: '生活帮',
             comments1: '30评论',
             comments2: '20小时前',
-            
+
           },
          {
             img: 'https://p6-sign.toutiaoimg.com/tos-cn-i-6w9my0ksvp/dbfac204e32b410a8c74df55c7f882fb~tplv-tt-cs0:1290:1962.jpg?_iz=31826&bid=10&from=article.headline&gid=7522032498805719591&lk3s=06827d14&x-expires=1757917040&x-signature=CNwSwLanxrjDdlVzgQjYhH0aYxQ%3D',
@@ -185,7 +185,7 @@ export default {
             comments: '生活帮',
             comments1: '30评论',
             comments2: '20小时前',
-            
+
           },
          {
             img: 'https://p3-sign.toutiaoimg.com/tos-cn-i-6w9my0ksvp/adcf0af0ad4c433cad339f7997d970c1~tplv-tt-cs0:1080:3161.jpg?_iz=31826&bid=10&from=article.headline&gid=7537583295865864742&lk3s=06827d14&x-expires=1757917040&x-signature=WWX47n%2Fq1%2Bosif9MCUP39weaoRw%3D',
@@ -193,7 +193,7 @@ export default {
             comments: '生活帮',
             comments1: '30评论',
             comments2: '20小时前',
-            
+
           },
          {
             img: 'https://p3-sign.toutiaoimg.com/tos-cn-i-6w9my0ksvp/ab353f4390e24f0a807dfa7b8120cbd1~tplv-tt-cs0:1080:1729.jpg?_iz=31826&bid=10&from=article.headline&gid=7532082974523769384&lk3s=06827d14&x-expires=1757917040&x-signature=thbHUjJyONz8Z%2BHJQ1asFvB8u6o%3D',
@@ -201,7 +201,7 @@ export default {
             comments: '生活帮',
             comments1: '30评论',
             comments2: '20小时前',
-            
+
           },
          {
             img: 'https://p3-sign.toutiaoimg.com/tos-cn-i-6w9my0ksvp/7c82562bc6f64832815b7fe14888f5ea~tplv-tt-cs0:786:779.jpg?_iz=31826&bid=10&from=article.headline&gid=7536604214773072422&lk3s=06827d14&x-expires=1757917040&x-signature=QxKf8ELZ%2BlgIcG%2Fx9cmZoRyL3Rs%3D',
@@ -209,7 +209,7 @@ export default {
             comments: '生活帮',
             comments1: '30评论',
             comments2: '20小时前',
-            
+
         },
         ],
         essaylist: [
@@ -254,7 +254,7 @@ export default {
               name:"辟谣榜｜海啸致上海转移30万人系谣言，辟谣"
             }
           ]
-          
+
         }
     },
   methods: {
@@ -262,7 +262,7 @@ export default {
      this.$router.push({ name: 'HomeView' });
   },
   },
-    
+
     mounted() {}
 }
 </script>
@@ -380,7 +380,7 @@ video {
 .homepage {
     width: 658px;
     height: 100%;
-   
+
 }
 .News {
     width: 658px;
@@ -390,7 +390,7 @@ video {
 .Newszt{
   display: flex;
   align-items: center;
- 
+
 }
 .time{
   font-size: 14px;
@@ -408,7 +408,7 @@ video {
   margin-top: 10px;
 }
 .Outermost{
-  
+
 }
 .Outermostwai{
   margin: 0 738px;
