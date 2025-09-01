@@ -11,7 +11,7 @@
                 <div class="Navigatewai2">
                     <div class="Navigatewai">
                         <div class="Navigateleft">
-                            <div class="fontleft">下载头条APP</div>
+                            <div class="fontleft">下载头条APP1</div>
                             <div class="fontleft">添加到桌面</div>
                             <div class="fontleft">关于头条</div>
                             <div class="fontleft">反馈</div>
